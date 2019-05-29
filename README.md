@@ -22,17 +22,34 @@ $ pip3 install mlhub
 - To install and configure the demo:
 
 ```console
-$ ml install   gjwgit/opencv
+$ ml install gjwgit/opencv
 $ ml configure opencv
 ```
 
 Determine an Image's Blurriness
 ==============================
 
-The returned measure might also be useful as a measure of how sharp
-the image is.
+The returned measure is probably useful as a measure of
+sharpness. The larger the number the sharper the image.
 
-The default threshold for blurriness is 100.
+The default threshold for blurriness is 100. Any image with a variance
+of the Laplacian less than 100 is regarded as blurry.
+
+Assess the blurriness of a folder of images:
+```console
+$ for f in *.{png,jpg}; do echo -n "$f "; ml blurry opencv $f; done
+street_img1.png Okay 610
+street_img2.png Okay 481
+street_img3.jpg Blurry 64
+street_img4.jpg Okay 903
+street_img5.jpg Blurry 91
+street_img6.jpg Blurry 71
+street_img7.jpg Blurry 75
+street_img8.jpg Blurry 60
+street_img9.jpg Blurry 93
+```
+
+Some specific examples:
 
 ![](https://digital-photography-school.com/wp-content/uploads/2014/10/DSC_3913_4_5_6_7_tonemapped-Edit.jpg)
 ```console
