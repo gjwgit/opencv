@@ -61,6 +61,12 @@ Okay 5670
 $ ml blurry opencv http://cdn1.thr.com/sites/default/files/2013/11/marina_bay_sands_singapore_a_l.jpg
 Okay 1303
 ```
+![](https://3.bp.blogspot.com/_Mjt2vy7HUaY/TKY6tQvJzFI/AAAAAAAAAGA/4qwNjH2ivzw/s1600/sharp+focus.jpg)
+```
+$ ml blurry opencv https://3.bp.blogspot.com/_Mjt2vy7HUaY/TKY6tQvJzFI/AAAAAAAAAGA/4qwNjH2ivzw/s1600/sharp+focus.jpg
+Okay 951
+```
+
 ![](https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg)
 ```console
 $ ml blurry opencv https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg
