@@ -30,7 +30,9 @@ Determine an Image's Blurriness
 ==============================
 
 The returned measure might also be useful as a measure of how sharp
-the image is?
+the image is.
+
+The default threshold for blurriness is 100.
 
 ![](https://digital-photography-school.com/wp-content/uploads/2014/10/DSC_3913_4_5_6_7_tonemapped-Edit.jpg)
 ```console
