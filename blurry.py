@@ -55,7 +55,9 @@ if is_url(path):
     img = np.asarray(bytearray(con.read()), dtype="uint8")
     img = cv2.imdecode(img, cv2.IMREAD_COLOR)
 else:    
-    img = cv2.imread(path)
+    path = os.path.join(get_cmd_cwd(), path)
+    with open(path, 'rb') as fstream:
+        img = cv2.imread(path)
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 fm = variance_of_laplacian(gray)
