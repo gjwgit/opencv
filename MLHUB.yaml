@@ -3,7 +3,7 @@ meta:
   name         : opencv
   title        : OpenCV Computer Vision.
   keywords     : computer vision, blurry
-  version      : 1.0.0
+  version      : 1.0.1
   languages    : py
   license      : mit
   author       : Graham.Williams@togaware.com
