@@ -32,6 +32,11 @@ Determine an Image's Blurriness
 The returned measure might also be useful as a measure of how sharp
 the image is?
 
+![](https://digital-photography-school.com/wp-content/uploads/2014/10/DSC_3913_4_5_6_7_tonemapped-Edit.jpg)
+```console
+$ ml blurry opencv https:digital-photography-school.com/wp-content/uploads/2014/10/DSC_3913_4_5_6_7_tonemapped-Edit.jpg
+Okay 5670
+```
 ![](http://cdn1.thr.com/sites/default/files/2013/11/marina_bay_sands_singapore_a_l.jpg)
 ```console
 $ ml blurry opencv http://cdn1.thr.com/sites/default/files/2013/11/marina_bay_sands_singapore_a_l.jpg
@@ -43,18 +48,18 @@ $ ml blurry opencv https://images.pexels.com/photos/338515/pexels-photo-338515.j
 Okay 374
 ```
 ![](https://www.arrivalguides.com/s3/ag-images-eu/18/20870ca6f7bc086749ea747ec0c8c86d.jpg)
-```shell
+```console
 $ ml blurry opencv https://www.arrivalguides.com/s3/ag-images-eu/18/20870ca6f7bc086749ea747ec0c8c86d.jpg
 Okay 170
 ```
 ![](https://www.nyip.edu/images/cms/photo-articles/stop-taking-blurry-pictures.jpg)
-```sh
+```console
 $ ml blurry opencv https://www.nyip.edu/images/cms/photo-articles/stop-taking-blurry-pictures.jpg
 Blurry 68
 ```
 
 ![](http://getwallpapers.com/wallpaper/full/4/5/4/314199.jpg)
-```sh
+```console
 $ ml blurry opencv http://getwallpapers.com/wallpaper/full/4/5/4/314199.jpg
 Blurry 43
 ```
