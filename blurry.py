@@ -21,7 +21,8 @@ from urllib.request import Request, urlopen
 
 def variance_of_laplacian(image):
     # Compute the Laplacian of the image and then return the focus
-    # measure as the variance of the Laplacian.
+    # measure as the variance of the Laplacian. TODO - don't really
+    # need a function?
     return cv2.Laplacian(image, cv2.CV_64F).var()
  
 # ----------------------------------------------------------------------
