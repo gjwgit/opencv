@@ -1,0 +1,18 @@
+--- # Open Computer Vision
+meta:
+  name         : opencv
+  title        : OpenCV Computer Vision.
+  keywords     : computer vision, blurry
+  version      : 1.0.0
+  languages    : py
+  license      : mit
+  author       : Graham.Williams@togaware.com
+  url          : https://github.com/gjwgit/opencv
+dependencies:
+  pip3:
+    - imutils
+  files:
+    - README.md
+    - blurry.py
+commands:
+  blurry   : Measure the blurriness of an image. 
