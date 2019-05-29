@@ -62,7 +62,7 @@ $ ml blurry opencv http://cdn1.thr.com/sites/default/files/2013/11/marina_bay_sa
 Okay 1303
 ```
 ![](https://3.bp.blogspot.com/_Mjt2vy7HUaY/TKY6tQvJzFI/AAAAAAAAAGA/4qwNjH2ivzw/s1600/sharp+focus.jpg)
-```
+```console
 $ ml blurry opencv https://3.bp.blogspot.com/_Mjt2vy7HUaY/TKY6tQvJzFI/AAAAAAAAAGA/4qwNjH2ivzw/s1600/sharp+focus.jpg
 Okay 951
 ```
