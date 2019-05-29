@@ -35,6 +35,8 @@ computes the variance. The default threshold for blurriness is 100 so
 that any image with a measure less than 100 is regarded as blurry.
 The larger the measure the sharper the image.
 
+For reference see https://github.com/indyka/blur-detection.
+
 Assess the blurriness of a folder of images:
 ```console
 $ for f in *.{png,jpg}; do echo -n "$f "; ml blurry opencv $f; done
