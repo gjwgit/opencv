@@ -92,7 +92,8 @@ Blurry 68
 $ ml blurry opencv http://getwallpapers.com/wallpaper/full/4/5/4/314199.jpg
 Blurry 43
 ```
-The algorithm is not perfect, or is it just the choice of the threshold.
+The algorithm is not perfect, or is it just the choice of the
+threshold. Perhaps 150 is a better threshold?
 
 ![](https://photos1.blogger.com/blogger/4886/2467/1600/23%20-%20Blurry%20Megan%20and%20Colosseum%20at%20night.jpg)
 ```console
