@@ -29,7 +29,7 @@ $ ml configure opencv
 Determine an Image's Blurriness
 ==============================
 
-The variance of the Laplacian approach to calcualting a measure of
+The variance of the Laplacian approach to calculating a measure of
 blurriness convolves the input image with the Laplacian operator and
 computes the variance :smile:. The default threshold for blurriness is
 100 so that any image with a measure less than 100 is regarded as
