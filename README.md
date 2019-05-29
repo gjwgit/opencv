@@ -92,3 +92,10 @@ Blurry 68
 $ ml blurry opencv http://getwallpapers.com/wallpaper/full/4/5/4/314199.jpg
 Blurry 43
 ```
+The algorithm is not perfect:
+
+![](https://photos1.blogger.com/blogger/4886/2467/1600/23%20-%20Blurry%20Megan%20and%20Colosseum%20at%20night.jpg)
+```console
+$ ml blurry opencv https://photos1.blogger.com/blogger/4886/2467/1600/23%20-%20Blurry%20Megan%20and%20Colosseum%20at%20night.jpg
+Okay 119
+```
