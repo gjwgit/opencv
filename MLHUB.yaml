@@ -9,8 +9,7 @@ meta:
   author       : Graham.Williams@togaware.com
   url          : https://github.com/gjwgit/opencv
 dependencies:
-  pip3:
-    - imutils
+  pip3: imutils, cv2, numpy, imutils
   files:
     - README.md
     - blurry.py
