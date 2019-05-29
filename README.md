@@ -52,12 +52,16 @@ Okay 374
 $ ml blurry opencv https://www.arrivalguides.com/s3/ag-images-eu/18/20870ca6f7bc086749ea747ec0c8c86d.jpg
 Okay 170
 ```
+![](https://cdn.photographylife.com/wp-content/uploads/2009/09/Red1-960x638.jpg)
+```CONSOLE
+$ ml blurry opencv https://cdn.photographylife.com/wp-content/uploads/2009/09/Red1-960x638.jpg
+Okay 167
+```
 ![](https://www.nyip.edu/images/cms/photo-articles/stop-taking-blurry-pictures.jpg)
 ```console
 $ ml blurry opencv https://www.nyip.edu/images/cms/photo-articles/stop-taking-blurry-pictures.jpg
 Blurry 68
 ```
-
 ![](http://getwallpapers.com/wallpaper/full/4/5/4/314199.jpg)
 ```console
 $ ml blurry opencv http://getwallpapers.com/wallpaper/full/4/5/4/314199.jpg
