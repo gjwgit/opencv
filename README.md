@@ -29,11 +29,11 @@ $ ml configure opencv
 Determine an Image's Blurriness
 ==============================
 
-The returned measure is probably useful as a measure of
-sharpness. The larger the number the sharper the image.
-
-The default threshold for blurriness is 100. Any image with a variance
-of the Laplacian less than 100 is regarded as blurry.
+The variance of the Laplacian approach to calcualting a measure of
+blurriness convolves the input image with the Laplacian operator and
+computes the variance. The default threshold for blurriness is 100 so
+that any image with a measure less than 100 is regarded as blurry.
+The larger the measure the sharper the image.
 
 Assess the blurriness of a folder of images:
 ```console
