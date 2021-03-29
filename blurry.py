@@ -14,7 +14,6 @@ import cv2
 
 import numpy as np
 
-from imutils import paths
 from mlhub.pkg import is_url
 from mlhub.utils import get_cmd_cwd
 from urllib.request import Request, urlopen
